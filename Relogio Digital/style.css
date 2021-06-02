@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1 {
+    font-size: 35px;
+    color: #00f;
+    font-weight: 700;
+    margin: 25px;
+    text-align: center;
+}
+div {
+    display: flex;
+    justify-content: center;
+}
+
+div #rel {
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+    font-size: 50px;
+    width: 300px;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    
+}
+
