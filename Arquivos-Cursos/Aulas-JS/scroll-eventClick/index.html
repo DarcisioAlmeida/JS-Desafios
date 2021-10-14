@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scroll Suave</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+        <h1>Scroll Suave</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Consequuntur odio voluptate suscipit cupiditate quam maxime nostrum consequatur
+            voluptatum velit ea aspernatur a molestiae, esse omnis veritatis similique rerum, adipisci totam.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea dolor cupiditate quasi libero nobis alias
+            inventore architecto consequatur, unde porro corrupti, explicabo officiis minima, rerum non voluptatum
+            ut facere voluptates?
+        </p>
+        <!-- Evento de Click con function-->
+            <button class="btnClick" onclick="clicou()">Clique Aqui</button>
+        <!-- Evento de Click sem função - mudando pelo this-->
+            <button class="btnClick2" onclick="this.innerHTML='Clicou e Mudou'">Mude Aqui</button>
+        <!-- Evento passando o mouse por cima - uso de this-->    
+            <h2 class="passou" onmouseover="this.innerHTML= 'Mudei pelo mouse'">Passou o mouse</h2>
+    </div>
+   
+    <button onclick="subirTela()" class="scrollbutton">D</button>
+    
+    
+    <!--Aqui JavaScript--> 
+    <script src="script.js"></script>
+</body>
+</html>
