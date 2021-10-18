@@ -1,6 +1,6 @@
 /*
   Desconstruindo ou Desestruturando Objetos 
-    - aceesar informações do objeto e trnasformar em variavel
+    - aceesar informações do objeto e transformar em variavel
 */
 
 let pessoa = {

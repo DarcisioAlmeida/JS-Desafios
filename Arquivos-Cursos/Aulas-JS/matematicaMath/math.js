@@ -3,7 +3,7 @@
   let novoValor = Math.round(3.952)
   console.log(novoValor)
 
-  // arredond asempre pra baixo
+  // arredonda sempre pra baixo
   novoValor = Math.floor(4.898)
   console.log(novoValor)
 
