@@ -4,7 +4,7 @@
   - resultado temporario: pode ou nao ocorrer
   - 3 estados : pendente | finalizado | rejeitado
   - obrigatorio ter a funcao(resolve, reject) // resolve = deu certo | reject = deu errado
-  - .then = quando tiver o resultado executa o que foi passado - resolve for executado e deu certo
+  - .then = then(então) quando tiver o resultado executa o que foi passado - resolve for executado e deu certo
   - .catch = quando tiver algum erro = reject foi acionado
 */
   function pegarTemperatura(){
@@ -17,7 +17,10 @@
     })
   }
 
-  // USANDO A PROMISE
+  /* USANDO A PROMISE
+    - console.log(antes|durante|depois) - somente para verificar o funcionamento da Promise
+    - Portanto ele roda todos os códigos e devolve por ultimo o resultado da promessa após 2s(2000)
+  */
   console.log('Código antes!')
   let temp = pegarTemperatura()
   console.log('Codigo durante')
