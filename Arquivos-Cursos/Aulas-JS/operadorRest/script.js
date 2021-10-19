@@ -42,3 +42,4 @@
     let outrosNomes = adicionarNomes(nomes, 'Darcisio', 'Cassia', 'Estrela', 'Lua')
 
     console.log(outrosNomes)
+    

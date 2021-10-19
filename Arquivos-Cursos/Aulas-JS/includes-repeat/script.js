@@ -15,7 +15,7 @@
   // uso em string
     let nome = 'Darcisio'
     console.log(nome.includes('D')) // true
-    console.log(nome.includes('C')) // false - difere maisuculas de minisculas
+    console.log(nome.includes('C')) // false - difere maiusculas de minisculas
   
     // uso repeat  
-    console.log(nome.repeat(3)) // repetiu a variavel 3x
+    console.log(nome.repeat(3)) // repetiu a variavel nome 3x

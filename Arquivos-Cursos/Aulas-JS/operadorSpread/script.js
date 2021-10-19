@@ -27,7 +27,6 @@
     cidade: 'São Paulo',
     pais: 'Brasil'
   }
-
   console.log(newInfo)
 
 // Exemplo em uma função

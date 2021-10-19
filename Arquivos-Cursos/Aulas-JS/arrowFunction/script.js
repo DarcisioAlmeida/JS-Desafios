@@ -16,7 +16,7 @@
     }
     console.log(somar2(20, 45))
 
-// Arrow Function - atribuir nome para variavel e substitui nome function por => após os atributos
+// Arrow Function - atribuir nome para variavel e substitui nome function por => após os parametros
     let somar3 = (x, y) => {
     return x + y
     }
