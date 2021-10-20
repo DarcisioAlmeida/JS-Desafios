@@ -22,12 +22,16 @@
     - Portanto ele roda todos os códigos e devolve por ultimo o resultado da promessa após 2s(2000)
   */
   console.log('Código antes!')
-  let temp = pegarTemperatura()
+
+  let temp = pegarTemperatura() // temp é uma promise
+
   console.log('Codigo durante')
+
   temp.then(function(resultado){
     console.log("TEMPERATURA: " +resultado)
   })
   temp.catch(function(error){
     console.log("Eita deu erro aqui!")
   })
+  
   console.log('Codigo depois!')
