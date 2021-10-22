@@ -11,6 +11,7 @@
     let listaMercado = ['ovo', 'café', 'leite', 'bolacha', 'arroz', 'feijao', 'macarrao']
     console.log(listaMercado.includes('carne')) // false
     console.log(listaMercado.includes('leite')) // true
+    console.log(listaMercado) // apenas verifica o array permanece a mesmo
 
   // uso em string
     let nome = 'Darcisio'

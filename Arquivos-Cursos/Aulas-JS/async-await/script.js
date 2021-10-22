@@ -46,7 +46,7 @@
       })
     */
   }
-
+  // os dados(name e adress) da funçao são extraidos de: fetch('https://jsonplaceholder.typicode.com/users') //
   function montarBlog(lista){
     let html = ''
 
