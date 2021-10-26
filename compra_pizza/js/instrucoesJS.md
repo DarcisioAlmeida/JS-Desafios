@@ -24,7 +24,18 @@
     - Ativar botão cancelar para desktop e voltar para mobile
     - inserir opacity 0 para fechar e depois display none
     - criar evento de fechar selecione os botões de cancelar e voltar e adicione forEach para pegar o item e evento de click, close modal
-    - alterando botões de quantidades (+ | - ) inserindo evento de click, adicionando ao modalQt e mostrando nova quantidade
+    - alterando botões de quantidades (+ | - ) inserindo evento de click, adicionando ao modalQt e mostrando nova quantidade - Para evento menos é definido um if para quantidade não seja menor que 1.
+    - adicionando evento de click aos tamanhos pequeno, medio e grande - clicou em um item desmarca tudo e seleciona apenas o clicado.
 
+/* INSTRUÇÕES PARA EVENTOS DO MODAL
+    - criada variavel car [],
+    - criado modayKey = 0
+    - adicionado evento de click no addButton
+    - Atribuido a classe selected o data-key
+    - adicionado a variavel car um objeto contendo { id, size, quantidade} 
+    - adicionado as informações ao carrinho, fecha o modal. closeModal   
+    - criado identificador evitar duplicidade de pedidos na validação
 
-*/
+*/ ATAULIZAÇÃO CARINHO DE COMPRAS
+    - criada um functio updateCar - vai verificar se o carrinho esta com ou sem itens -
+    - com itens aberto sem itens fechado
