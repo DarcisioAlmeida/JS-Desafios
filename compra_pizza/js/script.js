@@ -169,5 +169,6 @@
 
     } else {
       query('aside').classList.remove('show');
+      query('aside').style.left = '100vw'
     }
   }
