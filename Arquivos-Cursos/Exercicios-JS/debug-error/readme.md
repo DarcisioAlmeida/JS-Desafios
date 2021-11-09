@@ -37,4 +37,3 @@ O objetivo é que a função receba um array e retorne ele caso o seu tamanho co
 
 
 
-<img align="center" src="https://img.shields.io/static/v1?label=DEV&message=Darcisio Almeida&color=7159c1&style=for-the-badge&logo=ghost"/>
