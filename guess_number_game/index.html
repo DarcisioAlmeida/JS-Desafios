@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <title>Jogo Adivinhe o número</title>
+    <!--Google Fontes-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <!--CSS Stylesheet-->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Darcisio Almeida - DEV</h1>
+   <div class="container">
+       <h3>Descubra o número entre 1-100.</h3>
+       <h3>Veja se você consegue Adivinhar?</h3>
+
+       <input type="text" placeholder="Num" id="guess"><br>
+       <button onclick="play()" id="my_btn">ADIVINHE</button>
+
+       <p id="message1">Nº. de Tentativas: 0</p>
+       <p id="message2">Seus números inseridos foram: Nenhum</p>
+       <p id="message3"></p>
+   </div>
+   <!--Script-->
+   <script src="script.js"></script>
+</body>
+</html>
